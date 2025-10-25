@@ -11,6 +11,8 @@ export const resumeData: ResumeData = {
     phone: "(+977) 9865711881",
     email: "bidursapkota00@gmail.com",
     linkedin: "https://www.linkedin.com/in/bidur-sapkota-b204142a8/",
+    github: "https://github.com/bidursapkota00",
+    portfolio: "https://www.bidursapkota.com.np/",
   },
   quote: '"Be the change that you want to see in the world."',
   summary: {
@@ -108,6 +110,28 @@ export const resumeData: ResumeData = {
         location: "National College of Engineering",
         description:
           "Developed an intelligent water management solution enabling real-time monitoring of household drinking water consumption. The system features a web-based admin dashboard for water providers to manage and analyze usage data, while users can track their consumption and make payments through a dedicated mobile application. Designed and implemented both the hardware sensing module and IoT integration for automated data collection and efficient water resource management.",
+      },
+    ],
+  },
+  references: {
+    heading: "References",
+    items: [
+      {
+        title: "Professor, MIS Specialist",
+        organizationTag: "ACHS",
+        name: "Dr. Mahesh Man Maharjan",
+        organization: "Asian College of Higher Studies",
+        email: "maheshmanmaharjan@gmail.com",
+        phone: "+977 9751027530",
+      },
+      {
+        title: "Local Governance Expert",
+        organizationTag: "PLGSP",
+        name: "Saroj Shrestha",
+        organization:
+          "Provincial and Local Government Support Program\nMinistry of Federal Affairs and General Administration",
+        email: "saroj.lgcdp@gmail.com",
+        phone: "+977 9848257148",
       },
     ],
   },

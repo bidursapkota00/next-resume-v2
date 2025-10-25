@@ -2,6 +2,7 @@ import Summary from "@/components/Summary";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import AcademicProject from "@/components/AcademicProject";
+import References from "@/components/References";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Education />
       <Experience />
       <AcademicProject />
+      <References />
     </div>
   );
 }

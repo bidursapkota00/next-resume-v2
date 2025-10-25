@@ -1,5 +1,11 @@
 import { resumeData as data } from "../data";
-import { FaPhoneAlt, FaEnvelope, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaLinkedinIn,
+  FaGithub,
+  FaGlobe,
+} from "react-icons/fa";
 import Title from "./Title";
 import "./Summary.css";
 
@@ -30,14 +36,33 @@ const Summary = () => {
           <a href={`mailto:${data.contact.email}`} className="contact-link">
             <FaEnvelope /> {data.contact.email}
           </a>
-          <span className="separator">|</span>
+        </div>
+        <div className="contact-links">
           <a
             href={data.contact.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"
           >
-            <FaLinkedinIn /> bidur-sapkota
+            <FaLinkedinIn /> Linkedin
+          </a>
+          <span className="separator">|</span>
+          <a
+            href={data.contact.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            <FaGithub /> Github
+          </a>
+          <span className="separator">|</span>
+          <a
+            href={data.contact.portfolio}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            <FaGlobe /> Portfolio
           </a>
         </div>
       </section>

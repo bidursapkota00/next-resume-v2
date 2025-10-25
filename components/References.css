@@ -1,0 +1,80 @@
+.references-section {
+  margin-top: 2rem;
+}
+
+.references-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reference-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.reference-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.reference-left h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+.reference-right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.reference-right .organization-tag {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: rgb(220, 53, 34);
+  margin: 0;
+  font-weight: 400;
+}
+
+.reference-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding-left: 1.5rem;
+}
+
+.reference-info .name {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.reference-info .organization {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0;
+  font-weight: 300;
+}
+
+.reference-info .contact {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0;
+  font-weight: 300;
+}
+
+.reference-info .contact a {
+  color: #444;
+  text-decoration: none;
+}
+
+.reference-info .contact a:hover {
+  color: rgb(220, 53, 34);
+}

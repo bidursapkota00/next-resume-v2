@@ -9,6 +9,8 @@ export interface Contact {
   phone: string;
   email: string;
   linkedin: string;
+  github: string;
+  portfolio: string;
 }
 
 export interface Summary {
@@ -48,6 +50,20 @@ export interface AcademicProjects {
   projects: Project[];
 }
 
+export interface Reference {
+  title: string;
+  organizationTag: string;
+  name: string;
+  organization: string;
+  email: string;
+  phone: string;
+}
+
+export interface References {
+  heading: string;
+  items: Reference[];
+}
+
 export interface ResumeData {
   name: Name;
   title: string;
@@ -57,4 +73,5 @@ export interface ResumeData {
   education: Education[];
   workExperience: WorkExperience;
   academicProjects: AcademicProjects;
+  references: References;
 }

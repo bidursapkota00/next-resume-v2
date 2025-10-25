@@ -27,12 +27,16 @@
 }
 
 .education-left .degree {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: #555;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin: 0 0 0.35rem 0;
+}
+
+.education-left .degree span {
+  font-size: 1rem;
 }
 
 .education-left .description {

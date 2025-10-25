@@ -1,3 +1,4 @@
+import React from "react";
 import { resumeData } from "../data";
 import Title from "./Title";
 import "./Experience.css";
@@ -21,7 +22,15 @@ const Experience = () => {
 
             <div className="experience-row">
               <div className="experience-left">
-                <p className="title">{job.title}</p>
+                <p className="title">
+                  {job.title.split(" ").map((word, index) => (
+                    <React.Fragment key={index}>
+                      <span>{word.slice(0, 1)}</span>
+                      {word.slice(1)}
+                      &nbsp;
+                    </React.Fragment>
+                  ))}
+                </p>
               </div>
               <div className="experience-right">
                 <p className="dates">{job.dates}</p>

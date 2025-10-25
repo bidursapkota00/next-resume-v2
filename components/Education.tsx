@@ -13,7 +13,15 @@ const Education = () => {
           <div className="education-item" key={index}>
             <div className="education-left">
               <h3>{item.institution}</h3>
-              <p className="degree">{item.degree}</p>
+              <p className="degree">
+                {item.degree.split(" ").map((word, index) => (
+                  <React.Fragment key={index}>
+                    <span>{word.slice(0, 1)}</span>
+                    {word.slice(1)}
+                    &nbsp;
+                  </React.Fragment>
+                ))}
+              </p>
               <p className="description">{item.description}</p>
             </div>
 
