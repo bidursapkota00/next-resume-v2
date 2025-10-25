@@ -1,0 +1,25 @@
+.section-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-heading h2 span {
+  color: rgb(220, 53, 34);
+}
+
+.section-heading h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+  padding-right: 0.4rem;
+  white-space: nowrap;
+}
+
+.divider-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #555;
+  transform: translateY(0.6rem);
+}
