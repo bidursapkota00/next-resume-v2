@@ -1,0 +1,29 @@
+/* src/components/Skills.css */
+
+.skills-section {
+  margin-top: 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  /* First column sized to its content, second takes remaining space */
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem 1.5rem; /* row-gap | column-gap */
+  align-items: start; /* Align items to the top of their grid cell */
+}
+
+.skill-category {
+  font-weight: 700;
+  color: #555;
+  text-align: right;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.skill-items {
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 300;
+}

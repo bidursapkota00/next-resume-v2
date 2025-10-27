@@ -1,0 +1,77 @@
+/* src/components/Honors.css */
+
+.honors-section {
+  margin-top: 2rem;
+}
+
+.honors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Space between categories */
+}
+
+.honor-category h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.75rem 0;
+}
+
+.awards-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.award-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.award-left {
+  display: flex;
+  gap: 1rem; /* Space between year and description */
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.award-left .year {
+  color: #333;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  min-width: 80px; /* Aligns descriptions */
+}
+
+.award-left .description {
+  color: #333;
+}
+
+.award-left .description strong {
+  color: #555;
+  font-weight: 700;
+}
+
+.award-right {
+  text-align: right;
+  flex-shrink: 0;
+  min-width: 100px;
+}
+
+.award-right .location {
+  font-size: 1rem;
+  font-style: italic;
+  color: rgb(220, 53, 34);
+  font-weight: 300;
+}
+
+/* Adjust alignment for single-item list like "Merit Scholarship" */
+.award-left:has(.description:only-child) .year {
+  min-width: auto;
+}

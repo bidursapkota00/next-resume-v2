@@ -1,0 +1,53 @@
+/* src/components/Trainings.css */
+
+.trainings-section {
+  margin-top: 2rem;
+}
+
+.trainings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem; /* Space between list items */
+  padding-left: 1.75rem; /* Space for the numbers */
+  margin: 0;
+}
+
+.training-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.training-item li {
+  display: list-item;
+  line-height: 1.6;
+  list-style: decimal;
+  padding-left: 1ch;
+  font-weight: 300;
+}
+/* Style the list numbers */
+.training-item::marker {
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.training-item .description {
+  color: #333;
+  font-size: 1rem;
+}
+
+.training-item .description strong {
+  font-weight: 700;
+  color: #555;
+}
+
+.training-item .date {
+  color: rgb(220, 53, 34);
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: right;
+  flex-shrink: 0;
+  font-weight: 300;
+}

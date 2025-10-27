@@ -4,3 +4,9 @@ body {
   /* font-family: var(--font-poppins); */
   font-family: var(--font-lato);
 }
+
+@media print {
+  @page {
+    size: 210mm 1000mm;
+  }
+}

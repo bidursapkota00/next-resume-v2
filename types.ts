@@ -41,18 +41,28 @@ export interface WorkExperience {
 
 export interface Project {
   title: string;
+  description: string;
+  url: string;
+}
+
+export interface Projects {
+  heading: string;
+  projects: Project[];
+}
+export interface AcademicProject {
+  title: string;
   location: string;
   description: string;
 }
 
 export interface AcademicProjects {
   heading: string;
-  projects: Project[];
+  projects: AcademicProject[];
 }
 
 export interface Reference {
   title: string;
-  organizationTag: string;
+  abbr: string;
   name: string;
   organization: string;
   email: string;
@@ -61,9 +71,44 @@ export interface Reference {
 
 export interface References {
   heading: string;
-  items: Reference[];
+  list: Reference[];
 }
 
+export interface Skill {
+  name: string;
+  items: string;
+}
+
+export interface Skills {
+  heading: string;
+  categories: Skill[];
+}
+
+export interface Award {
+  year: string;
+  description: string;
+  location: string | null;
+}
+
+export interface AwardList {
+  title: string;
+  awards: Award[];
+}
+
+export interface HonorsAndAwards {
+  heading: string;
+  sections: AwardList[];
+}
+
+export interface Training {
+  description: string;
+  date: string;
+}
+
+export interface Trainings {
+  heading: string;
+  list: Training[];
+}
 export interface ResumeData {
   name: Name;
   title: string;
@@ -72,6 +117,10 @@ export interface ResumeData {
   summary: Summary;
   education: Education[];
   workExperience: WorkExperience;
+  projects: Projects;
   academicProjects: AcademicProjects;
   references: References;
+  skills: Skills;
+  honorsAndAwards: HonorsAndAwards;
+  trainings: Trainings;
 }

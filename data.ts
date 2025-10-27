@@ -96,6 +96,29 @@ export const resumeData: ResumeData = {
       },
     ],
   },
+  projects: {
+    heading: "Projects",
+    projects: [
+      {
+        title: "Online Job App",
+        description:
+          "Developed the complete frontend for an online job application platform, implementing user-friendly forms for job posting and applying, and seamlessly integrating APIs with the backend for smooth data communication",
+        url: "https://www.evereuser.co.uk/",
+      },
+      {
+        title: "Dallotech",
+        description:
+          "Developed a fully dynamic full-stack company landing page for Dallotech, delivering a modern, responsive, and visually engaging web presence.",
+        url: "https://dallotech.com/",
+      },
+      // {
+      //   title: "UrbanSpace",
+      //   description:
+      //     "Developed an animated and visually appealing hotel landing page using GSAP for smooth, interactive motion effects, enhancing user engagement and overall experience.",
+      //   url: "https://urbanspace.com.np/",
+      // },
+    ],
+  },
   academicProjects: {
     heading: "Academic Project Work",
     projects: [
@@ -113,25 +136,132 @@ export const resumeData: ResumeData = {
       },
     ],
   },
-  references: {
-    heading: "References",
-    items: [
+  skills: {
+    heading: "Skills",
+    categories: [
       {
-        title: "Professor, MIS Specialist",
-        organizationTag: "ACHS",
-        name: "Dr. Mahesh Man Maharjan",
-        organization: "Asian College of Higher Studies",
-        email: "maheshmanmaharjan@gmail.com",
-        phone: "+977 9751027530",
+        name: "Operating System",
+        items: "Ubuntu, Windows",
       },
       {
-        title: "Local Governance Expert",
-        organizationTag: "PLGSP",
-        name: "Saroj Shrestha",
-        organization:
-          "Provincial and Local Government Support Program\nMinistry of Federal Affairs and General Administration",
-        email: "saroj.lgcdp@gmail.com",
-        phone: "+977 9848257148",
+        name: "Microsoft Office Package",
+        items: "MS Word, MS PowerPoint, MS Excel, MS Access",
+      },
+      {
+        name: "Programming",
+        items:
+          "JavaScript, TypeScript, Python, C, C++, PHP, Java, Dart, Embedded programming in ESP8266 microcontroller, HTML, CSS",
+      },
+      {
+        name: "Library & Framework",
+        items:
+          "React.js, Next.js, Node.js, Express.js, Nest.js, React Native, FastAPI, Django, Flutter, Wordpress",
+      },
+      {
+        name: "Cloud",
+        items: "GCP, AWS",
+      },
+      {
+        name: "Database",
+        items: "MS-SQL, MySQL, MongoDB, PostgreSQL",
+      },
+      {
+        name: "Graphic Designing",
+        items: "Photoshop, Figma",
+      },
+      {
+        name: "IDE",
+        items: "Visual Studio Code, Jupyter Notebook",
+      },
+      {
+        name: "Languages",
+        items: "Nepali, English, Newari",
+      },
+    ],
+  },
+  honorsAndAwards: {
+    heading: "Honors & Awards",
+    sections: [
+      {
+        title: "National College of Engineering",
+        awards: [
+          {
+            year: "2018 - 2023",
+            description: "<strong>Full Scholarship</strong>",
+            location: null,
+          },
+          {
+            year: "2023",
+            description:
+              "<strong>First Prize</strong>, Hardware Model Exibition ",
+            location: null,
+          },
+        ],
+      },
+      {
+        title: "Sports",
+        awards: [
+          {
+            year: "2015",
+            description: "<strong>First Prize</strong>, Table Tennis",
+            location: "Hindu vidhya-peeth Nepal",
+          },
+          {
+            year: "2018",
+            description:
+              "<strong>First Prize</strong>, First Year Only Table Tennis",
+            location: "National College of Engineering",
+          },
+          {
+            year: "2025",
+            description: "<strong>Second Prize</strong>, Table Tennis",
+            location: "Asian College of Higher Studies",
+          },
+        ],
+      },
+    ],
+  },
+  trainings: {
+    heading: "Trainings",
+    list: [
+      {
+        description:
+          "1 year course on <strong>“Programming in C”</strong>, Advance Academy",
+        date: "2007-2008",
+      },
+      {
+        description:
+          "20 hours of training on <strong>“Cisco Certified Network Administrator”</strong>, National College of Engineering",
+        date: "June 2013",
+      },
+    ],
+  },
+  references: {
+    heading: "References",
+    list: [
+      {
+        name: "Pranaya Nakarmi",
+        title: "Academic Coordinator",
+        organization: "Asian College of Higher Studies",
+        phone: "9841205966",
+        email: "pranayanakarmi@gmail.com",
+        abbr: "ACHS",
+      },
+      {
+        name: "Subash Panday",
+        title: "Sr. Lecturer / Coordinator",
+        organization: "National College of Engineering",
+        phone: "9851115662",
+        email: "kavrelysubash@gmail.com",
+        abbr: "NCE",
+      },
+      {
+        name: "Anup Pokhrel",
+        title: "Co-Founder / QA Engineer",
+        organization: "DalloTech Pvt. Ltd.",
+        phone: "9847481555",
+        email: "leo22.anup@gmail.com",
+        abbr: "DalloTech",
       },
     ],
   },
