@@ -1,5 +1,6 @@
 // src/components/References.tsx
 
+import React from "react";
 import { resumeData } from "../data";
 import "./References.css";
 import Title from "./Title";
@@ -15,7 +16,16 @@ const References = () => {
             {/* Left Side: Details */}
             <div className="reference-left">
               <h3>{item.title}</h3>
-              <p className="name">{item.name}</p>
+              <p className="name">
+                {item.name.split(" ").map((word, index) => (
+                  <React.Fragment key={index}>
+                    <span>{word.slice(0, 1)}</span>
+                    {word.slice(1)}
+                    &nbsp;
+                  </React.Fragment>
+                ))}
+              </p>
+
               <p className="organization">{item.organization}</p>
               <p className="email">Email: {item.email}</p>
             </div>

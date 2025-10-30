@@ -31,10 +31,13 @@
 }
 
 .reference-left .name {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555;
   text-transform: uppercase;
   margin: 0;
+  span {
+    font-size: 1.1rem;
+  }
 }
 
 .reference-left .organization {
@@ -45,6 +48,7 @@
   /* This renders the \n newline character from the data */
   white-space: pre-line;
   font-weight: 300;
+  margin-left: 15px;
 }
 
 .reference-left .email {
@@ -52,6 +56,7 @@
   color: #333;
   margin: 0;
   font-weight: 300;
+  margin-left: 15px;
 }
 
 .reference-right {

@@ -13,7 +13,15 @@ const Honors = () => {
       <div className="honors-list">
         {resumeData.honorsAndAwards.sections.map((section, index) => (
           <div className="honor-category" key={index}>
-            <h3>{section.title}</h3>
+            <h3>
+              {section.title.split(" ").map((word, index) => (
+                <React.Fragment key={index}>
+                  <span>{word.slice(0, 1)}</span>
+                  {word.slice(1)}
+                  &nbsp;
+                </React.Fragment>
+              ))}
+            </h3>
             <ul className="awards-list">
               {section.awards.map((award, i) => (
                 <li className="award-item" key={i}>
