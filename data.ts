@@ -5,7 +5,7 @@ export const resumeData: ResumeData = {
     firstName: "Bidur",
     lastName: "Sapkota",
   },
-  title: "Lecturer",
+  title: "Full Stack Developer",
   contact: {
     address: "Chunikhel - Lalitpur, Nepal",
     phone: "(+977) 9865711881",
@@ -46,6 +46,30 @@ export const resumeData: ResumeData = {
     heading: "Work Experience",
     jobs: [
       {
+        title: "Web Developer",
+        location: "Khumaltar, Lalitpur",
+        company: "Dallotech pvt. ltd.",
+        responsibilities: [
+          "Develop full stack websites with Nextjs",
+          "Worked on projects like Pdf generation, Webflow, Landing Pages, Online job Application",
+          "GSAP Animations, FullStack Development",
+          "Convert figma design to code",
+          "API Integration",
+        ],
+        dates: "Oct 2021 to Jun 2022",
+      },
+      {
+        title: "Web Development Trainer",
+        location: "Ekantakuna, Lalitpur",
+        company: "Asian College of Higher Studies",
+        responsibilities: [
+          "Preparing codes for HTML, CSS, Js, Ts, React, Node, Express, Database",
+          "Fostering project based learning",
+          "Staying current by reading widely and producing published work in the field.",
+        ],
+        dates: "Sep 2023 to Current",
+      },
+      {
         title: "Lecturer",
         location: "Ekantakuna, Lalitpur",
         company: "Asian College of Higher Studies",
@@ -69,30 +93,6 @@ export const resumeData: ResumeData = {
           "Providing support to students and other colleagues.",
         ],
         dates: "May 2025 to Current",
-      },
-      {
-        title: "Web Development Trainer",
-        location: "Ekantakuna, Lalitpur",
-        company: "Asian College of Higher Studies",
-        responsibilities: [
-          "Preparing codes for HTML, CSS, Js, Ts, React, Node, Express, Database",
-          "Fostering project based learning",
-          "Staying current by reading widely and producing published work in the field.",
-        ],
-        dates: "Sep 2023 to Current",
-      },
-      {
-        title: "Web Developer",
-        location: "Khumaltar, Lalitpur",
-        company: "Dallotech pvt. ltd.",
-        responsibilities: [
-          "Develop full stack websites with Nextjs",
-          "Worked on projects like Pdf generation, Webflow, Landing Pages, Online job Application",
-          "GSAP Animations, FullStack Development",
-          "Convert figma design to code",
-          "API Integration",
-        ],
-        dates: "Oct 2021 to Jun 2022",
       },
     ],
   },

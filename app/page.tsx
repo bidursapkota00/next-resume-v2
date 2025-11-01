@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <div className="resume-container">
       <Summary />
-      <Education />
       <Experience />
       <Skills />
       <Project />
+      <AcademicProject />
+      <Education />
       <Honors />
       {/* <Trainings /> */}
-      <AcademicProject />
       <References />
     </div>
   );
