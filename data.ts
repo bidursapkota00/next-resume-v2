@@ -5,7 +5,7 @@ export const resumeData: ResumeData = {
     firstName: "Bidur",
     lastName: "Sapkota",
   },
-  title: "Full Stack Developer",
+  title: "Full Stack Developer Intern",
   contact: {
     address: "Chunikhel - Lalitpur, Nepal",
     phone: "(+977) 9865711881",
