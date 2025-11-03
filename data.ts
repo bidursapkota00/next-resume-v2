@@ -175,7 +175,7 @@ export const resumeData: ResumeData = {
       },
       {
         name: "Languages",
-        items: "Nepali, English, Newari",
+        items: "Nepali, English",
       },
     ],
   },
