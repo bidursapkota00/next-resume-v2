@@ -13,7 +13,9 @@ export default function Home() {
     <div className="resume-container">
       <Summary />
       <Education />
+      <p style={{ padding: "40px" }}></p>
       <Experience />
+      <p style={{ padding: "80px" }}></p>
       <Skills />
       <Project />
       <Honors />

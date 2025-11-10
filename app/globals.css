@@ -7,6 +7,5 @@ body {
 
 @media print {
   @page {
-    size: 210mm 1000mm;
   }
 }
